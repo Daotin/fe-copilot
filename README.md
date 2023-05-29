@@ -45,7 +45,7 @@
 
 > 由于有一些部分是我用不到的，所以就去掉了，只要找出它编写的规律即可。
 
-源代码见：[prompts.md](./prompts.md)
+源代码见：`prompts_xxx.md`
 
 ## Changelog
 
