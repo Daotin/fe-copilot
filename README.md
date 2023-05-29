@@ -1,4 +1,4 @@
-# fe-assistant
+# fe-programming-assistant 前端编程助理
 
 ## 背景
 
