@@ -81,6 +81,7 @@ demo: https://app.copilothub.ai/chat?id=6453
 总结：
 
 1、直接让 ChatGPT 学习、模仿、改造（_推荐，先生成一个初版内容，改起来更快_）
+
 2、把自己写好的内容和标准内容都输入给 ChatGPT，然后让它按照标准内容修改你的内容
 
 ## LICENSE
