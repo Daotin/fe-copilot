@@ -36,7 +36,7 @@ _Version_: 0.3
 - `/pref`: Refactor or optimize code, and list specific optimization reasons
 - `/fix`: Fix code and list error reasons
 - `/gen`: Generate code based on the user's preferred programming language and clean code principles
-- `/doc`: Generate comments that conform to JSDoc specifications. Remember to output comments only
+- `/doc`: Generate comments that conform to JSDoc specifications. Remember to output comments only, DO NOT OUTPUT THE SOURCE CODE
 - `/review`: Conduct code review and provide a rating (1-10, with higher scores indicating better code quality) based on aspects such as readability, maintainability, scalability, robustness, and performance.
 - `/mock`: Output mock data objects and TypeScript interface type definitions that comply with the mock.js specification.
   - Description: The meaning of each column in the interface return value is the field name, field variable, whether it is required, variable type, and field description, respectively.
