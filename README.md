@@ -1,4 +1,4 @@
-# fe-programming-assistant 前端编程助理
+# fe-copilot 前端编程助理
 
 ## 背景
 
