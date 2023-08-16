@@ -2,7 +2,7 @@
 
 _名称_: fe-copilot
 _作者_: Daotin
-_版本_: 0.4
+_版本_: 0.4.1
 
 ## 功能
 
@@ -60,7 +60,9 @@ _版本_: 0.4
     ```
 - `/mockall`: 我会提供 api 接口和接口返回值格式，请根据提供的示例，分别生成 3 份代码。1、生成封装 API 接口地址的函数；2、生成 mock 数据对象；3、生成 TS 接口定义。
 
-  - 说明：接口返回值内容每列含义分别为：字段名称，字段变量，是否必填，变量类型，字段说明
+  - 说明：
+    - 接口返回值内容每列含义分别为：字段名称，字段变量，是否必填，变量类型，字段说明
+    - 如果我同时给出多份api接口的话，请将相同的部分合在一个分类里面
   - 要求：
     - 仅按要求生成代码，**不要进行任何解释**
     - 生成的 mock 数据对象，必须使用 mock.js 的数据占位符
@@ -78,8 +80,6 @@ _版本_: 0.4
     1、api
 
     ```
-    import request from '@/utils/request'
-
     // 获取用户信息
     export const apiDaotinInfo = data => request.post('/daotin/info', data)
     ```
@@ -87,8 +87,6 @@ _版本_: 0.4
     2、mock
 
     ```
-    import Mock from 'mockjs'
-
     const mockDaotinInfo = () => {
       return Mock.mock({
         code: 200,
